@@ -1,4 +1,5 @@
-const APILINK = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}=1`;
+
+const APILINK = `https://api.themoviedb.org/3/discover/movie?sort_by=popularity.desc&api_key=${API_KEY}&page=1`;
 
 const main = document.getElementById("section");
 const form = document.getElementById("form");
